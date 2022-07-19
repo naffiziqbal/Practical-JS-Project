@@ -1,0 +1,47 @@
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.random-cat-gen img{
+    width: 240px;
+    padding: 5px;
+}
+
+.cat{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mainGame{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.mainGame img{
+    padding: 10px;
+    width: 300px;
+    border-radius: 15px;
+    transition: .3s ease-in;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.mainGame img:first-child:hover{
+    box-shadow: 1px 2px 30px #1face4 ;
+}
+.mainGame img:last-child:hover{
+    box-shadow: 1px 2px 30px #c40a29 ;
+}
+.mainGame img:nth-child(2):hover{
+    box-shadow: 1px 2px 30px #4731c9 ;
+}
